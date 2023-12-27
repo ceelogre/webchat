@@ -1,0 +1,24 @@
+{
+  "name": "webchat",
+  "version": "1.0.0",
+  "description": "basic chat demo using socket io",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/ceelogre/webchat.git"
+  },
+  "keywords": [
+    "chat",
+    "socketio"
+  ],
+  "author": "ceelogre",
+  "license": "ISC",
+  "dependencies": {
+    "http": "^0.0.1-security",
+    "socket.io": "^4.7.2"
+  }
+}
