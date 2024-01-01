@@ -13,7 +13,7 @@ io.on("connection", (socket) => {
   socket.on('ping', (d) => {
     console.info(d)
   })
-  io.send(
+  socket.send(
     {
       "messageFrom": "server"
     }
