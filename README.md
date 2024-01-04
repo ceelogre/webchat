@@ -1,3 +1,3 @@
 # Webchat
 
-Basic hat app using socket io.
+Basic chat app using socket io.
