@@ -22,5 +22,5 @@ io.on("connection", (socket) => {
   console.info("Live connection")
 })
 
-
-httpServer.listen(4000, () => console.info("http server on!") )
+const port = 4000
+httpServer.listen(port, () => console.info("http server on!") )
