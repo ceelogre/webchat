@@ -19,7 +19,7 @@ io.on("connection", (socket) => {
       "messageFrom": "server"
     }
   )
-  console.info("Live connection")
+  console.info("web server on!")
 })
 
 const port = 4000
